@@ -23,8 +23,6 @@ void bubble_sort(int *arr, size_t size)
                 tmp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = tmp;
-
-                /* Print the array after each swap */
                 print_array(arr, size);
             }
         }
