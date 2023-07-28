@@ -11,7 +11,7 @@ unsigned int i, j;
 int tmp;
 
 if (size < 2 || arr == NULL)
-    return;
+	return;
 
 for (i = 0; i < size - 1; i++)
 {
