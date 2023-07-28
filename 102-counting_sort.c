@@ -59,3 +59,4 @@ for (i = 0; i < (int)size; i++)
 free(sorted_array);
 free(count);
 }
+
