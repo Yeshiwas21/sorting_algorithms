@@ -13,7 +13,6 @@ unsigned int i, d, min_idx, temp;
 for (i = 0; i < size - 1; i++)
 {
 min_idx = i;
-
 for (d = i + 1; d < size; d++)
 {
 if (array[d] < array[min_idx])
